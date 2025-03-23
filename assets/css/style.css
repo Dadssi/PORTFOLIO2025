@@ -26,6 +26,8 @@
 ===============================*/
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&amp;display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ballet:opsz@16..72&family=Miss+Fajardose&family=Plaster&family=Tangerine:wght@400;700&family=Tektur:wght@400..900&family=WindSong:wght@400;500&display=swap');
+
 /*=============================
 	01. Variable CSS start
 ===============================*/
@@ -263,14 +265,17 @@ p {
 	display: inline-flex;
 	gap: 12px;
 	align-items: center;
+	width: 24px;
+	height: 24px;
+	font-family: "Ballet", cursive;
 }
 
-.header-area .container .navbar-brand .logo-icon {
+/* .header-area .container .navbar-brand .logo-icon {
 	fill: var(--black);
-}
+} */
 
 .header-area .container .navbar-brand span {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: 600;
 	line-height: 1em;
 	color: var(--black);
@@ -2571,3 +2576,5 @@ p {
 	background-color: var(--primary);
 	color: var(--white);
 }
+
+  
